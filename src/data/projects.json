@@ -1,0 +1,41 @@
+[
+    {
+        "img": "src",
+        "name": "Lorem Ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium mi id eleifend lacinia. Vestibulum rutrum eros at libero dapibus dictum. Vivamus vitae efficitur est, accumsan consequat tortor. Ut in erat in felis vehicula egestas. Phasellus volutpat est erat, sit amet commodo orci ultricies sit amet.",
+        "skills": [
+            "React",
+            "NextJs",
+            "TailwindCSS",
+            "CSS",
+            "Firebase"
+        ],
+        "url": "url"
+    },
+    {
+        "img": "src",
+        "name": "Lorem Ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium mi id eleifend lacinia. Vestibulum rutrum eros at libero dapibus dictum. Vivamus vitae efficitur est, accumsan consequat tortor. Ut in erat in felis vehicula egestas. Phasellus volutpat est erat, sit amet commodo orci ultricies sit amet.",
+        "skills": [
+            "React",
+            "NextJs",
+            "TailwindCSS",
+            "CSS",
+            "Firebase"
+        ],
+        "url": "url"
+    },
+    {
+        "img": "src",
+        "name": "Lorem Ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pretium mi id eleifend lacinia. Vestibulum rutrum eros at libero dapibus dictum. Vivamus vitae efficitur est, accumsan consequat tortor. Ut in erat in felis vehicula egestas. Phasellus volutpat est erat, sit amet commodo orci ultricies sit amet.",
+        "skills": [
+            "React",
+            "NextJs",
+            "TailwindCSS",
+            "CSS",
+            "Firebase"
+        ],
+        "url": "url"
+    }
+]
