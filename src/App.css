@@ -19,3 +19,15 @@
     transition: 0.5s;
     transform: translate(10px);
 }
+
+.scroll-top {
+    position: fixed;
+    height: 50px;
+    bottom: 10%;
+    left: 93%;
+    cursor: pointer;
+}
+
+.project-description {
+    text-align: justify;
+}
