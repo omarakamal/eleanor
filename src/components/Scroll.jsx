@@ -1,9 +1,14 @@
-import React, {useEffect, useState} from 'react'
+import React, {useContext, useEffect, useState} from 'react'
 import ArrowIcon from '../assets/arrow-icon.png'
+import ArrowWhite from '../assets/arrow-white.png'
+import { ThemeContext } from '../contexts/theme.context'
 
 function Scroll() {
 
     const [isVisible, setIsVisible] = useState(false)
+    const {theme} = useContext(ThemeContext)
+    const arrowSrc = theme === 'dark' ? ArrowWhite : ArrowIcon
+
 
     
     const toggleVisibility = () => {
@@ -32,7 +37,7 @@ function Scroll() {
     
   return (
     <div>
-        {isVisible && <img className='scroll-top' src={ArrowIcon} alt="Scroll to top" onClick={scrollToTop} />}
+        {isVisible && <img className='scroll-top' src={arrowSrc} alt="Scroll to top" onClick={scrollToTop} />}
 
     </div>
   )

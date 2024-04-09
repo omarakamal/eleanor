@@ -1,0 +1,78 @@
+.light {
+    background-color: #FCFCFC;
+  }
+  
+  .dark {
+    background-color:  #02111B
+  }
+  
+  .Navbar.light {
+    background-color: #5D737E;
+  }
+
+  .Projects.light{
+    background-color: #C4CED4;
+  }
+
+  .Projects.dark{
+    background-color: #222A2F;
+  }
+
+  .Skills.dark {
+    background-color: #222A2F;
+  }
+
+  .Skills.light{
+    background-color: #C4CED4;
+  }
+
+  .Skills .skill-card .dark{
+    background-color: white;
+  }
+
+  .Contact.dark{
+    background-color: #111518;
+  }
+  
+  .light p,
+  .light h1,
+  .light h3 {
+    color: #000000;
+  }
+  
+  .dark p,
+  .dark h1,
+  .dark h3,
+  .dark h2,
+  .dark a {
+    color: white;
+  } 
+
+  .light .navbar-nav .nav-item .nav-link {
+    color: white;
+  }
+  
+  .dark .navbar-nav .nav-item .nav-link {
+    color: white;
+  }
+  
+  /* Custom CSS */
+/* Custom CSS */
+.form-check-input {
+    position: relative;
+    display: flex;
+    height: 18px;
+    background-color: #667D8F;
+  }
+
+  .form-check-input:checked {
+    background-color: black;
+  }
+
+  .form-check-input:focus {
+    outline: 2px solid black;
+  }
+
+  .form-check-input {
+    outline: none; /* Remove the default outline */
+  }

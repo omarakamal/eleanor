@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import LocationPin from '../assets/location-pin.png'
+import LocationPinWhite from '../assets/location-white.png'
+import { ThemeContext } from '../contexts/theme.context'
 
 function Intro() {
+
+  const {theme} = useContext(ThemeContext)
+  const pinSrc = theme === 'dark' ? LocationPinWhite : LocationPin 
+
   return (
     <div>
     <div className="container-fluid d-flex flex-column align-items-center text-center" >
@@ -18,7 +24,7 @@ function Intro() {
         <div className="container-fluid">
             <div className="row d-flex justify-content-center">
             <div className="col-1 col-md-1 mt-4">
-              <img src={LocationPin} style={{height: '30px', width: 'auto' }}/>
+              <img src={pinSrc} style={{height: '30px', width: 'auto' }}/>
             </div>
             <div className="col-1 col-md-1 mt-4">
               <p className='fs-5 fw-bold'>Barcelona</p>
