@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "/src/assets/plantspedia-screenshot.png",
+        "img": "/assets/plantspedia-screenshot.png",
         "name": "PlantsPedia",
         "description": "PlantsPedia was my second project undertaken during the Ironhack Web Development bootcamp, completed alongside my project partner. We initially built out the front-end of the application using React, HTML, CSS and Bootstrap using a mock backend, and subsequently integrated a real backend - as well as user authentication - created with MongoDB, Node, and Express.",
         "skills": [
@@ -22,28 +22,6 @@
     },
     {
         "id": 2,
-        "img": "/src/assets/digital-agency-screenshot.png",
-        "name": "Elevate Agency",
-        "description": "This personal project focussed on creating a beautifully designed, single-page application for a marketing agency, inspired by my background in digital marketing. The project allowed me to practice my skills in front- and back-end technologies, including React, Node, Express, MongoDB, and Bootstrap. ",
-        "skills": [
-            "ReactJS",
-            "ExpressJS",
-            "NodeJS",
-            "CSS"
-        ],
-        "all_skills": [
-            "HTML",
-            "CSS",
-            "Bootstrap",
-            "ReactJS",
-            "NodeJS",
-            "ExpressJS",
-            "MongoDB"
-        ],
-        "url": "url"
-    },
-    {
-        "id": 3,
         "img": "/src/assets/book-breakout-screenshot.png",
         "name": "Book Breakout",
         "description": "Book Breakout was the first project I undertook during the Ironhack 24-week intensive Web Development bootcamp. It is a movement game created using HTML canvas, CSS, and Javascript.",
@@ -60,7 +38,7 @@
         "url": "https://eleanorpitcher.github.io/book-breakout-canvas/"
     },
     {
-        "id": 4,
+        "id": 3,
         "img": "src",
         "name": "Padel4All - Work In Progress",
         "description": "Inspired by our love of padel, myself and my two project partners collaboratively created Padel4All, a full-stack application designed to make padel social in Barcelona.",
