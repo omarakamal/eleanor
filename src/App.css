@@ -17,7 +17,7 @@
     opacity: 1;
     color: white;
     transition: 0.5s;
-    transform: translate(10px);
+    transform: scale(1.1);
 }
 
 .scroll-top {
@@ -31,3 +31,8 @@
 .project-description {
     text-align: justify;
 }
+
+.nav-item:hover {
+    color: black
+} 
+  

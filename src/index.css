@@ -76,3 +76,53 @@
   .form-check-input {
     outline: none; /* Remove the default outline */
   }
+
+  .background-images {
+    position: absolute;
+    width: 100%;
+    height: 300px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  .background-image {
+    position: absolute;
+    width: 300px; /* Adjust width as needed */
+    height: auto;
+  }
+
+  .cloud-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Optional: to align images vertically */
+    width: 100%; /* Ensures the container spans the entire width */
+  }
+
+  .project-image{
+    border-radius: 15px;
+  }
+
+  .image-container:hover{
+    transform: scale(1.1);
+    /* border: solid 2px black; */
+  }
+
+  .position-relative {
+    position: relative;
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.2s ease-in; /* Smooth transition */
+  }
+
+  .project-image:hover + .overlay-text {
+    opacity: 1;
+  }
