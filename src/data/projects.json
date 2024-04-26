@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "/assets/plantspedia-screenshot.png",
+        "img": "/src/assets/plantspedia-screenshot.png",
         "name": "PlantsPedia",
         "description": "PlantsPedia was my second project undertaken during the Ironhack Web Development bootcamp, completed alongside my project partner. We initially built out the front-end of the application using React, HTML, CSS and Bootstrap using a mock backend, and subsequently integrated a real backend - as well as user authentication - created with MongoDB, Node, and Express.",
         "skills": [
