@@ -2,8 +2,6 @@ import React, { useContext, useEffect, useState } from 'react'
 import LocationPin from '../assets/location-pin.png'
 import LocationPinWhite from '../assets/location-white.png'
 import { ThemeContext } from '../contexts/theme.context'
-import CloudImg from '../assets/knotty-asian-swirl-cloud.png'
-import BcnSkyline from '../assets/bcn-skyline.png'
 
 function Intro() {
 
@@ -15,7 +13,7 @@ function Intro() {
     <div>
       <div className="container-fluid d-flex flex-column align-items-center text-center" >
           <h1 className="m-4 row">Hi, I'm Eleanor,</h1>
-          <h2 className="display-1 m-4 fw-bold" style={{letterSpacing: '-4px'}} >A Front-End Developer.</h2>
+          <h2 className="display-1 m-4 fw-bold" style={{letterSpacing: '-4px'}} >A Full-Stack Developer.</h2>
         </div>
         <div className="container-fluid d-flex flex-column align-items-center text-center">
           <div className="row text-center justify-content-center">

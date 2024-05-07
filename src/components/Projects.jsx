@@ -25,7 +25,7 @@ function Projects() {
                                 <div className="container-fluid flex justify-content-center">
                                     <div className='image-container pb-4 position-relative' >
                                         <Link to={`/projects/${oneProject.id}`}>
-                                            <img src={oneProject.img} style={{width:'400px',height:'200px'}} className='project-image' />
+                                            <img src={'../assets/plantspedia-screenshot.png'} style={{width:'400px',height:'200px'}} className='project-image' />
                                             <div className='overlay-text'>Learn More</div>
                                         </Link>
                                         
