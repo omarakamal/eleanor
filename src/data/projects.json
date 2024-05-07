@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "/src/assets/book-breakout-screenshot.png",
+        "img": "/src/assets/plantspedia-screenshot.png",
         "name": "PlantsPedia",
         "description": "PlantsPedia was my second project undertaken during the Ironhack Web Development bootcamp, completed alongside my project partner. We initially built out the front-end of the application using React, HTML, CSS and Bootstrap using a mock backend, and subsequently integrated a real backend - as well as user authentication - created with MongoDB, Node, and Express.",
         "skills": [
@@ -39,7 +39,7 @@
     },
     {
         "id": 3,
-        "img": "/src/assets/padel4all.png",
+        "img": "/public/padel4all.png",
         "name": "Padel4All",
         "description": "Inspired by our love of padel, myself and my two project partners collaboratively created Padel4All, a full-stack application designed to make padel social in Barcelona.",
         "skills": [
