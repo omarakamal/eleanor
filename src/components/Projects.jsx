@@ -19,13 +19,15 @@ function Projects() {
         <div className="container-fluid pb-5">
             <div className="row ">
                 {projects.map((oneProject) => {
+                    {console.log(oneProject.img)}
                     return (
+                        
                         <div key={oneProject.index} className="col-lg-4 col-md-6 col-sm-8 col-xs-1 p-4 text-center" >    
                                 <h2>{oneProject.name}</h2>
                                 <div className="container-fluid flex justify-content-center">
                                     <div className='image-container pb-4 position-relative' >
                                         <Link to={`/projects/${oneProject.id}`}>
-                                            <img src={`${oneProject.image}`} style={{width:'400px',height:'200px'}} className='project-image' />
+                                            <img src={oneProject.img} style={{width:'400px',height:'200px'}} className='project-image' />
                                             <div className='overlay-text'>Learn More</div>
                                         </Link>
                                         
