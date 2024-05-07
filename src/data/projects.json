@@ -39,7 +39,7 @@
     },
     {
         "id": 3,
-        "img": "/public/padel4all.png",
+        "img": "/src/assets/padel4all.png",
         "name": "Padel4All",
         "description": "Inspired by our love of padel, myself and my two project partners collaboratively created Padel4All, a full-stack application designed to make padel social in Barcelona.",
         "skills": [
